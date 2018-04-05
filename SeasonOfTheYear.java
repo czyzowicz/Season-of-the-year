@@ -1,6 +1,6 @@
 package sda.java9.wpj.basics;
 
-class SeasonOfTheYear
+public class SeasonOfTheYear
 {
 	public static void main (String [] args) 
 	{
