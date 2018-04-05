@@ -4,7 +4,7 @@ class SeasonOfTheYear
 {
 	public static void main (String [] args) 
 	{
-		String season = season (12,28);
+		String season = season (10,31);
 		System.out.println(season);
 		
 	}
