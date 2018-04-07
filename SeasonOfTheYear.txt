@@ -1,17 +1,17 @@
-package sda.java9.wpj.basics.PoryRoku;
+package sda.java9.wpj.basics;
 
-public class SeasonOfTheYear
+class SeasonOfTheYear
 {
 	public static void main (String [] args) 
 	{
-		String season = season (10,31);
+		String season = season (12,28);
 		System.out.println(season);
 		
 	}
 	
 	public static boolean isValidDayOfMonth(int month, int dayOfMonth)
 	{
-		if (dayOfMonth <= 0 || dayOfMonth > 31) 
+		if (dayOfMonth <= 0 || dayOfMonth > 31) //to od razu załatwia sprawę miesięcy 31 dniowych
 		{
 			return false; 
 		}
@@ -92,4 +92,3 @@ public class SeasonOfTheYear
 	}
 	
 }
-
